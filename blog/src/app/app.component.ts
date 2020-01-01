@@ -10,6 +10,7 @@ export class AppComponent {
  public  data="hello code";
  getVal(){
    return "Code Step by Step"
+   
  }
-  num = 100;
+ num = 100;
 }
