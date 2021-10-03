@@ -13,4 +13,8 @@ export class AppComponent {
    
  }
  num = 100;
+ getData(val: string){
+  console.log(val);
+  
+ }
 }
