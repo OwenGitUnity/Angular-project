@@ -7,14 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
  public title = 'Hello angular';
- public  data="hello code";
- getVal(){
-   return "Code Step by Step"
-   
- }
- num = 100;
- getData(val: string){
-  console.log(val);
-  
+ public  data="hello code";  
+ name="peter"
+ disable:boolean=true
+ booliying(){
+   this.disable=!this.disable
  }
 }
