@@ -1,16 +1,17 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
- public title = 'Hello angular';
- public  data="hello code";  
- name="peter"
- disable:boolean=true
- booliying(){
-   this.disable=!this.disable
- }
+
+  title="Forms  "
+  
 }
+
+
+
+  
